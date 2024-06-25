@@ -1,0 +1,25 @@
+Linear Search Algorithm:
+
+Input: An array (arr) and a target value (x).
+Output: Index of x in arr if x is present; otherwise, -1.
+Process:
+Start from the beginning of the array (index = 0).
+Compare each element of the array with x.
+If a match is found, return the index of the element.
+If the entire array is searched and no match is found, return -1.Liner Search algorithm :
+
+
+Pseudocode for Linear Search:
+
+LinearSearch(arr, n, x):
+    // arr: array to be searched
+    // n: size of array arr
+    // x: element to be searched
+    
+    for i from 0 to n-1 do:
+        if arr[i] == x then:
+            return i  // Element found at index i
+        end if
+    end for
+    
+    return -1  // Element not found
